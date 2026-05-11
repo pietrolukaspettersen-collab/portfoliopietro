@@ -1,6 +1,6 @@
 # Portfólio Online - Pietro Lukas Pettersen
 
-Projeto desenvolvido para a disciplina Fundamentos da Programação Web.
+Projeto desenvolvido para a disciplina Desenvolvimento Web.
 
 ## Tecnologias utilizadas
 
@@ -15,7 +15,3 @@ Projeto desenvolvido para a disciplina Fundamentos da Programação Web.
 - Menu responsivo
 - Validação de formulário
 - Simulação de envio
-
-## Publicação
-
-O projeto pode ser publicado utilizando GitHub Pages.
