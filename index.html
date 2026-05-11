@@ -1,4 +1,68 @@
 <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfólio - Pietro Lukas Pettersen</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Pietro Lukas Pettersen</h1>
+
+        <button id="menu-btn">☰</button>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <button id="tema-btn">Alternar Tema</button>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+
+        <p>
+            Meu nome é Pietro Lukas Pettersen, tenho 16 anos e sou apaixonado
+            por tecnologia, computadores e programação.
+        </p>
+
+        <p>
+            Possuo experiência com montagem e manutenção de computadores,
+            personalização de sistemas e criação de conteúdos digitais.
+        </p>
+
+        <p>
+            Meus hobbies incluem jogos, edição de imagens, customização de PCs
+            e aprendizado de novas tecnologias.
+        </p>
+    </section>
+
+    <section id="formacao">
+        <h2>Formação</h2>
+
+        <ul>
+            <li>Ensino Médio Completo</li>
+            <li>Curso Superior em andamento - Uninter</li>
+            <li>Conhecimento intermediário em HTML, CSS e JavaScript</li>
+            <li>Conhecimento em hardware e manutenção de computadores</li>
+            <li>Idioma: Português nativo</li>
+            <li>Idioma: Inglês básico/intermediário</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+
+        <div class="card-container">
 
             <div class="card">
                 <h3>Projeto de Currículo Online</h3>
@@ -18,11 +82,9 @@
         </div>
     </section>
 
-    <!-- Seção Contato -->
     <section id="contato">
         <h2>Contato</h2>
 
-        <!-- Formulário -->
         <form id="formulario">
 
             <input
@@ -45,16 +107,13 @@
             <button type="submit">Enviar</button>
         </form>
 
-        <!-- Mensagem de retorno -->
         <p id="resultado"></p>
     </section>
 
-    <!-- Rodapé -->
     <footer>
         <p>© 2026 - Pietro Lukas Pettersen</p>
     </footer>
 
-    <!-- Arquivo JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
